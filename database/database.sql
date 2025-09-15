@@ -1,0 +1,65 @@
+create table items (
+	id int not null auto_increment,
+	brand varchar(128) not null,
+	products varchar(128) not null,
+	price int not null,
+	style varchar(128) not null,
+	remarks varchar(128) not null,
+	pictures varchar(128) not null,
+	link varchar(128) not null,
+	primary key (id)
+);
+
+INSERT INTO items (brand, products, price, style, remarks, pictures, link) VALUES
+('Sennheiser','IE800S',3800,'Neutural','in','./photos/products/ie800s.png', './product_ie800s.html'),
+('Sennheiser','HD 660S',2490,'Neutural','over','./photos/products/hd660s.png',''),
+('Sennheiser','HD 490Pro',2770,'Neutural','over','./photos/products/hd490pro.png',''),
+('Sennheiser','HD 660S2',3040,'Neutural','over','./photos/products/hd660s2.jpg',''),
+('Sennheiser','HE-1',570000,'Neutural','over','./photos/products/he-1.jpg',''),
+('Sennheiser','IE100 Pro',780,'Bright','in','./photos/products/ie100pro.png',''),
+('Sennheiser','IE600',3580,'Bright','in','./photos/products/ie600.png',''),
+('Sennheiser','IE900',7900,'Bright','in','./photos/products/ie900.jpg',''),
+('Sennheiser','HD600NEW',2150,'Bright','over','./photos/products/hd600_new.jpg',''),
+('Sennheiser','HD800S',8000,'Bright','over','./photos/products/hd800s.jpg',''),
+('Sennheiser','HD650',2400,'Bass','over','./photos/products/hd650.png',''),
+('Beyerdynamic','DT900 Pro X',2290,'Neutural','over','./photos/products/dt900prox.png',''),
+('Beyerdynamic','T1 v3',5980,'Bass','over','./photos/products/t1v3.jpg',''),
+('Audio-Technica','ATH-M20X',380,'Neutural','over','./photos/products/ath-m20x.jpg',''),
+('Audio-Technica','ATH-AWKT',14230,'Bass','over','./photos/products/ath-awkt.jpg',''),
+('Moondrop','Aria2',580,'Neutural','in','./photos/products/aria2.jpg',''),
+('Moondrop','星野2',800,'Neutural','in','./photos/products/星野2.jpg',''),
+('Moondrop','菊DSP',150,'Bright','in','./photos/products/菊DSP.png',''),
+('Moondrop','蘭',250,'Bright','in','./photos/products/蘭.jpg',''),
+('Moondrop','夏空',1100,'Bright','half-in','./photos/products/夏空.jpg',''),
+('Moondrop','Para',2400,'Bright','over','./photos/products/para.jpg',''),
+('Shure','KSE 1500',23380,'Neutural','in','./photos/products/kse1500.jpg',''),
+('Shure','840A',1010,'Unkown','over','./photos/products/840a.png',''),
+('Sony','MDR-MV1',2750,'Neutural','over','./photos/products/mdr-mv1.png',''),
+('Sony','IER-M9',5970,'Bass','in','./photos/products/ier-m9.jpg',''),
+('Sony','IER-M7',3070,'Bass','in','./photos/products/ier-m7.jpg',''),
+('Sony','MDR-CD900ST',1390,'Unkown','over','./photos/products/mdr-cd900st.jpg',''),
+('Audeze','MM-100',2800,'Neutural','over','./photos/products/mm-100.jpg',''),
+('Audeze','MM-500',14000,'Neutural','over','./photos/products/mm-500.jpg',''),
+('AKG','K701',1480,'Unkown','over','./photos/products/k701.png',''),
+('AKG','K702',1390,'Unkown','over','./photos/products/k702.png',''),
+('AKG','K712 Pro',2280,'Bright','over','./photos/products/k712pro.png',''),
+('Philips','SHP 9500',800,'Bright','over','./photos/products/shp9500.jpg',''),
+('Philips','X2HR',750,'Bass','over','./photos/products/x2hr.jpg',''),
+('Philips','X3',1100,'Bright','over','./photos/products/x3.jpg',''),
+('NiceHCK','喜馬拉雅',1850,'Bright','in','',''),
+('NiceHCK','小藍帽',150,'Unkown','half-in','',''),
+('Final','E3000',380,'Bass','in','./photos/products/e3000.jpg',''),
+('Final','D8000 Pro',22980,'Bass','over','./photos/products/d8000pro.jpg','');
+
+
+create table users (
+	id int not null auto_increment,
+	name varchar(255) not null,
+	email varchar(255) not null,
+	password varchar(255) not null,
+	contact varchar(255) not null,
+	city varchar(255) not null,
+	address varchar(255) not null,
+	primary key (id)
+);
+

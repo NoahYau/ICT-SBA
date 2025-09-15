@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css&js/index_ai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css&js/product.css">
+    <link rel="stylesheet" href="./css&js/product_page_ai_v2.css">
+    <link rel="icon" href="photos/doge_logo_v2.png" type="image/png" />
+    <title>DogeBee Earphone Store</title>
+</head>
+<body>
+    <div class="topnav">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="./photos/doge_logo_v2.png" alt="Bootstrap" width="60" height="70">
+                </a>
+            </div>
+            <div class="header" style="color:rgb(255, 255, 255);">
+                <h1>DogeBee</h1>
+                <p class="tagline">Welcome to DogeBee Earphone Store!</p>
+            </div>
+        </nav>
+    </div>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="products.html">Products</a>
+        <div class="dropdown">
+            <button class="dropbtn">Browse by Brand
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Sennhiser</a>
+                <a href="#">Audio Technica</a>
+                <a href="#">Shure</a>
+            </div>
+        </div>
+		<a href="products.html">Headphones</a>
+		<a href="about.html">About</a>
+        <div class="nav-utilities">
+            <!-- Search Bar -->
+            <div class="search-container">
+              <input type="text" placeholder="Search..." class="search-input">
+              <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            
+            <!-- Icons -->
+            <div class="nav-icons">
+              	<a href="#cart" class="cart-icon" aria-label="Shopping Cart">
+                	<i class="fa-solid fa-cart-shopping"></i>
+                	<!-- <span class="cart-count">0</span> -->
+              	</a>
+            	<a href="#account" class="user-icon" aria-label="User Account">
+                <i class="fa-solid fa-user"></i>
+              	</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="slideshow-container">
+        <div class="mySlides fade">
+          	<div class="numbertext">1 / 3</div>
+          	<img src="./photos/doge_banner.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          	<div class="numbertext">2 / 3</div>
+          	<img src="./photos/earpod_banner.jpg" style="width:100%">
+          	<div class="text">Promotion</div>
+        </div>
+      
+        <div class="mySlides fade">
+          	<div class="numbertext">3 / 3</div>
+          	<img src="./photos/wallpaper_flowergirl.png" style="width:100%">
+          	<div class="text">Wallpaper</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+      
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="./css&js/slideshow.js"></script> -->
+
+    <video width="1080" height="720" autoplay muted class="promote_video">
+        <source src="New_arrivals.mp4" type="video/mp4">
+    </video>
+    <div class="container_product">
+        <!-- Filter Sidebar -->
+        <div class="filter-sidebar">
+            <div class="filter-header">
+                <h2>Filter</h2>
+                <button class="reset-btn">Reset</button>
+            </div>
+            <div class="product-count">3 Products</div>
+            
+            <div class="filter-group">
+                <h3>Catagories</h3>
+                <ul class="filter-options">
+                    <li>
+                        <input type="checkbox" id="category1" checked>
+                        <label for="category1">Headphones (3)</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="category2">
+                        <label for="category2">Earphone (17)</label>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="filter-group">
+                <h3>Brand</h3>
+                <ul class="filter-options">
+                    <li>
+                        <input type="checkbox" id="brand1" checked>
+                        <label for="brand1">Sennhiser</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="brand2">
+                        <label for="brand2">Audio Technica</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Products Section -->
+        <div class="products-section">
+            <!-- Sort Options -->
+            <div class="sort-options">
+                <a href="#" class="active">Popular</a>
+                <a href="#">Latest</a>
+                <a href="#">Price ↑↓</a>
+                <a href="#">Highest Rating</a>
+            </div>
+            
+            <!-- Product Grid -->
+            <div class="row">
+                <div class="card block">
+                    <img src="./photos/sennhiser_ie800s.png" alt="IE800s" style="width:100%">
+                    <h1>Sennhiser IE800s</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card block">
+                    <img src="./photos/sony_mdr-mv1.jpg" alt="MDR-MV1" style="width:100%">
+                    <h1>Sony MDR-MV1</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card block">
+                    <img src="./photos/philips_x3.png" alt="Philips X3" style="width:100%">
+                    <h1>Philips X3</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card block">
+                    <img src="./photos/sennhiser_ie800s.png" alt="IE800s" style="width:100%">
+                    <h1>Sennhiser IE800s</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card block">
+                    <img src="./photos/sony_mdr-mv1.jpg" alt="MDR-MV1" style="width:100%">
+                    <h1>Sony MDR-MV1</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+                <div class="card block">
+                    <img src="./photos/philips_x3.png" alt="Philips X3" style="width:100%">
+                    <h1>Philips X3</h1>
+                    <p class="price">$19.99</p>
+                    <p>What to add</p>
+                    <p><button>Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

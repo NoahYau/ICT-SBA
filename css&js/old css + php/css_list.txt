@@ -1,0 +1,43 @@
+css tag:
+logo
+body
+header
+header h1
+topnav
+topnav a 
+topnav a:hover
+leftcolumnn
+rightcolumn
+fakeimg
+card
+row::after
+footer
+2 responsive layout
+navbar
+navbar a
+dropdown
+dropdown dropbtn
+navbar a:hover, dropdown:hover, dropbtn
+dropdown-content
+dropdown-content a 
+dropdown-content a:hover
+dropdown:hover dropdown-content
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+

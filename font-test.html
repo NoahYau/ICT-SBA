@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @font-face {
+      font-family: "chinese";
+      src: url("./css&js/zh.woff2");
+      font-display: swap;
+    }
+    
+    body {
+      font-family: "chinese";
+    }
+  </style>
+</head>
+<body>
+  <h1>字体测试 Font Test</h1>
+  <p>如果這行字體顯示為特殊文字，说明字体加载成功</p>
+  
+  <!-- Debugging -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Check if font is loaded
+      document.fonts.ready.then(() => {
+        console.log('Fonts loaded:', document.fonts.check('12px zh'));
+      });
+      
+      // Log font status
+      const zhFont = new FontFace('zh', 'url(zh.ttf)');
+      zhFont.load().then(font => {
+        console.log('Font loaded:', font);
+      }).catch(err => {
+        console.error('Font error:', err);
+      });
+    });
+  </script>
+</body>
+</html>

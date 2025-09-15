@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="./css&js/index_ai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./css&js/product.css">
+    <link rel="stylesheet" href="./css&js/product_page_ai_v2.css">
+    <link rel="stylesheet" href="./css&js/product_individual.css">
+    <link rel="icon" href="photos/doge_logo_v2.png" type="image/png" />
+    <title>DogeBee Earphone Store</title>
+</head>
+<body>
+
+    <div class="topnav">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <img src="./photos/doge_logo_v2.png" alt="Bootstrap" width="60" height="70">
+                </a>
+            </div>
+            <div class="header" style="color:rgb(255, 255, 255);">
+                <h1>DogeBee</h1>
+                <p class="tagline">Welcome to DogeBee Earphone Store!</p>
+            </div>
+        </nav>
+    </div>
+
+    <div class="navbar">
+        <a href="index.php">Home</a>
+        <a href="products.php">Products</a>
+        <div class="dropdown">
+            <button class="dropbtn">Browse by Brand
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Sennhiser</a>
+                <a href="#">Audio Technica</a>
+                <a href="#">Shure</a>
+            </div>
+        </div>
+		<a href="products.php">Headphones</a>
+		<a href="about.html">About</a>
+        <div class="nav-utilities">
+            <!-- Search Bar -->
+            <div class="search-container">
+              <input type="text" placeholder="Search..." class="search-input">
+              <button class="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+            
+            <!-- Icons -->
+            <div class="nav-icons">
+              	<a href="#cart" class="cart-icon" aria-label="Shopping Cart">
+                	<i class="fa-solid fa-cart-shopping"></i>
+                	<!-- <span class="cart-count">0</span> -->
+              	</a>
+            	<a href="login.php" class="user-icon" aria-label="User Account">
+                <i class="fa-solid fa-user"></i>
+              	</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-container">
+        <!-- Product Gallery -->
+        <div class="product-gallery">
+            <div class="main-image">
+                <img src="./photos/products/ie800s.png" alt="IE800s">
+            </div>
+            <div class="thumbnails">
+                <img src="./photos/???.png" alt="Angle 1">
+                <img src="./photos/sennhiser_ie800s_angle2.jpg" alt="Angle 2">
+                <img src="./photos/sennhiser_ie800s_package.jpg" alt="Package">
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h1 class="product-title">Sennhiser IE800s</h1>
+            <div class="product-rating">
+                <span class="stars">★★★★☆</span>
+                <span class="review-count">(128 reviews)</span>
+            </div>
+            <p class="product-price">$699.99</p>
+            <div class="product-description">
+                <p>High-end in-ear headphones with extraordinary sound quality and innovative transducer technology.</p>
+            </div>
+
+            <div class="product-specs">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Extra Wide Band (XWB) transducers</li>
+                    <li>7mm dynamic drivers</li>
+                    <li>Frequency response: 5Hz - 46.5kHz</li>
+                    <li>Ceramic housing</li>
+                    <li>Ergonomic fit design</li>
+                </ul>
+            </div>
+
+            <div class="product-actions">
+                <div class="quantity-selector">
+                    <button class="qty-btn">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="qty-btn">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="wishlist-btn"><i class="far fa-heart"></i> Add to Wishlist</button>
+            </div>
+
+            <div class="product-meta">
+                <p><strong>Brand:</strong> Sennhiser</p>
+                <p><strong>Category:</strong> In-Ear Headphones</p>
+                <p><strong>SKU:</strong> SN-IE800S-001</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Tabs -->
+    <div class="product-tabs">
+        <button class="tab-btn active" data-target="tab-description">Description</button>
+        <button class="tab-btn" data-target="tab-specifications">Specifications</button>
+        <button class="tab-btn" data-target="tab-reviews">Reviews (128)</button>
+        <button class="tab-btn" data-target="tab-shipping">Shipping</button>
+    </div>
+    
+    <div id="tab-description" class="tab-content active">
+        <!-- Description content -->
+    </div>
+    
+    <div id="tab-specifications" class="tab-content">
+        <!-- Specifications content -->
+    </div>
+    
+    <div id="tab-reviews" class="tab-content">
+        <!-- Reviews content -->
+    </div>
+    
+    <div id="tab-shipping" class="tab-content">
+        <!-- Shipping content -->
+    </div>
+
+    <div class="tab-content active">
+        <h3>Detailed Description</h3>
+        <p>The IE 800 S is the refined version of Sennheiser's legendary IE 800 in-ear headphones...</p>
+        <!-- More detailed content -->
+    </div>
+
+    <!-- Related Products -->
+    <div class="related-products">
+        <h2>You May Also Like</h2>
+        <div class="related-grid">
+            <!-- Repeat your existing product card structure -->
+            <div class="card block">
+                <img src="./photos/sony_mdr-mv1.jpg" alt="MDR-MV1">
+                <h1>Sony MDR-MV1</h1>
+                <p class="price">$599.99</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+            <!-- More related products -->
+        </div>
+    </div>
+
+    <!-- Keep the same footer if you have one -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Tab functionality
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            // Initialize first tab as active
+            if (tabButtons.length > 0 && tabContents.length > 0) {
+                tabButtons[0].classList.add('active');
+                tabContents[0].classList.add('active');
+            }
+        
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Get target content ID from data attribute
+                    const targetId = this.dataset.target;
+                    const targetContent = document.getElementById(targetId);
+        
+                    // Validate target exists
+                    if (!targetContent) return;
+        
+                    // Remove active classes
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+        
+                    // Activate clicked tab and content
+                    this.classList.add('active');
+                    targetContent.classList.add('active');
+                });
+            });
+        });
+        </script>
+    <script>
+            // Add this JavaScript before closing </body> tag or in a separate file
+    document.querySelectorAll('.quantity-selector').forEach(selector => {
+        const minusBtn = selector.querySelector('.qty-btn:first-child');
+        const plusBtn = selector.querySelector('.qty-btn:last-child');
+        const input = selector.querySelector('input');
+
+        minusBtn.addEventListener('click', () => {
+            const currentValue = parseInt(input.value) || 1;
+            input.value = Math.max(currentValue - 1, parseInt(input.min) || 1);
+            input.dispatchEvent(new Event('change'));
+        });
+
+        plusBtn.addEventListener('click', () => {
+            const currentValue = parseInt(input.value) || 1;
+            input.value = currentValue + 1;
+            input.dispatchEvent(new Event('change'));
+        });
+
+    // Optional: Validate manual input
+        input.addEventListener('input', () => {
+            const min = parseInt(input.min) || 1;
+            if (parseInt(input.value) < min) {
+                input.value = min;
+            }
+        });
+    });
+    </script>
+</body>
+</html>

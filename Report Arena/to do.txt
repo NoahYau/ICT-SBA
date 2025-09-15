@@ -1,0 +1,54 @@
+To Do:
+
+language selection
+chatbot in the down right corner to guide users to buy products [wasted]
+animation [done]
+individual product page [1 only, pending]
+fix cart quantity when there is 2 or more products
+fix the logout button not showing in other pages [done]
+
+	Report:
+	Search
+	Speacial feature
+
+Report improvement:
+
+	Intro + Website Structure + Layout Design Draft:
+	The introduction should mention at least most of the functions.
+	Mind the grammar, the first sentence is actually a sentence fragment, which is not a very good first impression.
+	More consideration on the customer's involvement and back end (staff page) would be better.
+
+	Navigation Bar, Home & Product page:
+	number the features
+	reduce screencap of the non-necessary code
+	include screen cap of the whole webpage
+	
+//	Registeration Form & Login Page:
+//	Add the database table pic [done]
+
+Requirement:
+
+1) At least 15 pages of content, different elements / functions to fit the topic (promotion,
+discounts, search, filter, customer services, etc.) [doing]
+2) Web Accessibility, Compatibility [done]
+3) Staff Pages (Interface, add product to store, check customers’ order) [done]
+4) Customers Pages (Interface, profile, shopping cart, order history) [done]
+5) Data/Information verification and validation [done but not in the report]
+6) Extra functions: Rating, Favorite product, customer feedback/comment, points system, etc. [wasted]
+
+Done:
+header
+Footer
+Filter
+Browse by brand
+Cart
+login and register
+admin page
+admin edit
+admin delete
+admin add
+admin check orders
+account page + customer orders
+find your earphone page
+seach function
+checkout function

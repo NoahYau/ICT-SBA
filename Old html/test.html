@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./css&js/index_ai_v2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<title>DogeBee Earphone Store</title>
+</head>
+<body>
+<!-- Improved Navigation Structure -->
+<header class="navbar-container">
+  <!-- Top Logo/Header Section -->
+  <div class="navbar-top">
+    <div class="brand-logo">
+      <img src="./photos/doge_logo_v2.png" alt="DogeBee Logo" width="60" height="70">
+    </div>
+    <div class="brand-header">
+      <h1>DogeBee</h1>
+      <p class="tagline">Welcome to DogeBee Earphone Store!</p>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <nav class="main-nav">
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#headphone" class="nav-link">Headphones</a></li>
+      
+      <!-- Dropdown Menu -->
+      <li class="dropdown">
+        <button class="dropbtn">
+          Browse by Brand <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sennheiser</a>
+          <a href="#">Audio Technica</a>
+          <a href="#">Shure</a>
+        </div>
+      </li>
+      
+      <!-- Search and Icons -->
+      <li class="nav-utilities">
+        <div class="search-container">
+          <input type="text" placeholder="Search..." class="search-input">
+          <button class="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="nav-icons">
+          <a href="#cart" class="icon-link"><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href="#account" class="icon-link"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./photos/doge_banner.png" style="width:100%">
+          <!-- <div class="text">Caption Text</div> -->
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./photos/earpod_banner.jpg" style="width:100%">
+          <div class="text">Promotion</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./photos/wallpaper_flowergirl.png" style="width:100%">
+          <div class="text">Wallpaper</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      
+      <script src="./css&js/slideshow.js"></script>
