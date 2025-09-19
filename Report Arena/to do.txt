@@ -24,6 +24,11 @@ Report improvement:
 	include screen cap of the whole webpage
 	
 	*Database linkage between users and orders
+	*Text size
+	*Colour choice
+	*Nivagation
+	*Design consistency
+	*alt text(accessibility)
 
 Requirement:
 
