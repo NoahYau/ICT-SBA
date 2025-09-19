@@ -23,8 +23,7 @@ Report improvement:
 	reduce screencap of the non-necessary code
 	include screen cap of the whole webpage
 	
-//	Registeration Form & Login Page:
-//	Add the database table pic [done]
+	*Database linkage between users and orders
 
 Requirement:
 
